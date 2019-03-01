@@ -1,0 +1,22 @@
+0000-0069 Death Front
+0071-0108 Death Back
+0110-0179 loop Attack Boxing
+0181-0240 loop Attack
+0242-0316 loop Attack Combo In Place
+0318-0385 loop Fight Idle
+0387-0462 loop Fight Idle 01
+0464-0478 loop Run
+0480-0511 loop Walk
+0513-0544 loop Walk Back
+0546-0715 loop Seat Eating
+0717-0836 loop Idle
+0838-0997 loop Idle Seating
+0999-1018 loop Hit Left
+1020-1039 loop Hit Right
+1041-1060 loop Hit Front
+1062-1081 loop Hit Back
+1083-1101 loop Jump
+1103-1147 loop Go to Sleep
+1149-1208 loop Sleeping
+1210-1264 Wake Up
+1266-1357 loop Grooming Each Other

@@ -1,0 +1,25 @@
+0000-0000 Bind Pose
+0001-0037 loop Walk
+0039-0051 loop Run
+0053-0214 loop Fight
+0216-0315 Fight Idle
+0316-0373 loop Attack Jaw
+0374-0399 loop Attack Head 
+0401-0461 loop Idle 
+0463-0489 Start Eating
+0490-0569 loop Eating
+0570-0594 End Eating
+0596-0649 Lie Dawn
+0650-0709 Rest Open Jaw
+0710-0763 Stund Up
+0765-0824 Rest Close Jaw
+0826-0925 loop Swimmming
+0927-0966 loop State In Water
+0968-0981 loop Hit Right
+0982-0995 loop Hit Left
+0996-1009 loop Hit Front
+1010-1023 loop Hit Back
+1025-1138 loop Idle01
+1140-1301 loop Fight Miror
+1303-1316 loop Run Fast
+1318-1371 Death

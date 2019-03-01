@@ -1,0 +1,20 @@
+0001-0024 loop Walk
+0026-0039 loop Run
+0041-0059 loop Jump
+0061-0084 loop Track
+0086-0115 loop Fight Idle
+0116-0161 loop Attack
+0163-0199 loop Eating
+0201-0215 loop Hit Right
+0216-0230 loop Hit Left
+0231-0245 loop Hit Front
+0246-0260 loop Hit Back
+0261-0273 Death
+0275-0314 loop Idle
+0315-0329 Seat Down
+0330-0379 loop Seating
+0380-0394 Stand Up
+0395-0425 Lie Down
+0427-0465 loop Lie
+0467-0493 Lie Stand Up
+0495-0554 loop Sleep

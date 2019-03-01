@@ -1,0 +1,18 @@
+0000-0000 Bind Pose
+0001-0030 loop Trot
+0032-0051 loop Tarsus      
+0053-0063 loop Gallop
+0065-0082 Start Eating
+0083-0152 loop Eating
+0153-0169 End Eating
+0170-0269 loop Simple Idle
+0270-0368 Death
+0370-0403 loop Jump
+0405-0476 loop Idle
+0477-0510 loop Attack
+0511-0577 loop Rearing up (Attack01)
+0578-0617 loop Attack02
+0619-0639 loop Hit Right
+0640-0660 loop Hit Left
+0661-0680 loop Hit Front
+0681-0700 loop Hit Back

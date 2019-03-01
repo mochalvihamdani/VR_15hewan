@@ -1,0 +1,19 @@
+0000-0000 Bind Pose
+0001-0001 Idle 
+0002-0002 idle 01
+0003-0030 loop Walk
+0032-0091 loop Eating
+0093-0106 loop Run
+0108-0118 Attack
+0119-0174 loop Eating After Attack
+0176-0261 loop Creeping
+0263-0292 loop Sweeming Tail
+0294-0320 loop Walk BAck
+0322-0351 loop Sweeming Leg
+0352-0382 loop Sweeming Attack
+0384-0419 loop Fight Idle
+0420-0434 loop Hit Left
+0435-0449 loop Hit Right
+0450-0464 loop Hit Front
+0465-0479 loop Hit Up
+0480-0503 Death

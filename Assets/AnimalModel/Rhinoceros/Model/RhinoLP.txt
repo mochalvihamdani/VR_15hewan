@@ -1,0 +1,21 @@
+0000-0000 Bind Pose
+0001-0046 loop Walk Sniffing
+0048-0061 loop Run
+0063-0162 loop Idle
+0164-0192 loop Run Attack  
+0194-0223 loop Fight Idle
+0224-0254 loop Attack Head Right  
+0255-0285 loop Attack Head Left  
+0287-0326 loop Eating
+0328-0359 loop Walk
+0361-0392 loop Walk Back
+0394-0453 loop Idle Eating
+0454-0509 Lie Down
+0510-0559 loop Sleeping
+0560-0612 Wake Up
+0613-0629 loop Hit Left
+0630-0646 loop Hit Right
+0647-0653 loop Hit Up
+0654-0680 loop Hit Back
+0682-0734 Death
+0736-0763 Death 01

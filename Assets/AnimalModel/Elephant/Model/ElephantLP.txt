@@ -1,0 +1,22 @@
+0000-0000 Bind Pose
+0001-0042 loop Walk
+0045-0064 loop Run
+0066-0085 loop Run Attack      
+0087-0126 loop Fight Idle
+0127-0182 loop Fight
+0185-0284 loop Eating
+0286-0399 loop Fight Idle01
+0400-0449 loop Attack
+0450-0464 loop Hit Right
+0465-0479 loop Hit Left
+0480-0494 loop Hit Front
+0495-0509 loop Hit BAck
+0511-0609 loop Idle
+0610-0719 Lie Down   
+0720-0769 loop Sleep
+0770-0849 Wake UP
+0851-0900 loop Rest
+0902-0978 Death
+0980-1004 Start Idle
+1005-1089 Idle Trumpet
+1090-1119 End Idle
