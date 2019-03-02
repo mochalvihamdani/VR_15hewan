@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -146,7 +146,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 430351776}
+  m_Father: {fileID: 1228921670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &351497479
@@ -241,60 +241,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
---- !u!1 &430351774
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 187554, guid: ea1571887779a9348b8c6be9d9e9c8a4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1719704598}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 430351776}
-  - component: {fileID: 430351775}
-  m_Layer: 0
-  m_Name: VRMain_NavMesh
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!195 &430351775
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 19524796, guid: ea1571887779a9348b8c6be9d9e9c8a4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1719704598}
-  m_GameObject: {fileID: 430351774}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 0
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!4 &430351776
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 405174, guid: ea1571887779a9348b8c6be9d9e9c8a4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1719704598}
-  m_GameObject: {fileID: 430351774}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 351497478}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &464446637
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,6 +562,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1228921668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 187554, guid: ea1571887779a9348b8c6be9d9e9c8a4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1719704598}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228921670}
+  - component: {fileID: 1228921669}
+  m_Layer: 0
+  m_Name: VRMain_NavMesh
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!195 &1228921669
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 19524796, guid: ea1571887779a9348b8c6be9d9e9c8a4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1719704598}
+  m_GameObject: {fileID: 1228921668}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 0
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!4 &1228921670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 405174, guid: ea1571887779a9348b8c6be9d9e9c8a4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1719704598}
+  m_GameObject: {fileID: 1228921668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 351497478}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1662926027
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +827,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea1571887779a9348b8c6be9d9e9c8a4, type: 2}
-  m_RootGameObject: {fileID: 430351774}
+  m_RootGameObject: {fileID: 1228921668}
   m_IsPrefabAsset: 0
 --- !u!1 &1824286926
 GameObject:
